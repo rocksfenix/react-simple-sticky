@@ -1,0 +1,8 @@
+# Dependency directory
+node_modules
+demo-page/node_modules
+
+# Generated files
+lib
+
+package-lock.json

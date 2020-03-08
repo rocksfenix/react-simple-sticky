@@ -1,0 +1,45 @@
+{
+  "name": "demo-page-component",
+  "version": "0.0.5",
+  "description": "Demo Page of demo-page-component",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode production --optimize-minimize",
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Gerardo Gallegos <puxerop@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "expect": "^25.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "standard": "^14.3.1",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "my-component": "file:..",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-simple-sticky": "file:.."
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "homepage": ""
+}
